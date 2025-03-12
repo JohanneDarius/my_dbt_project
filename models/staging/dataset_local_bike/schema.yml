@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: product_name
+    description: "Liste des produits"
+  - name: product_id
+    description: "Identifiant unique du produit"
+    tests:
+      - unique
+      - not_null
+
+  
+  
+    
+
