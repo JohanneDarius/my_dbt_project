@@ -11,13 +11,16 @@ sources:
     tables:
       - name: account_manager_region_mapping
 
-  - name: sales_database
-    schema: sales_database
+  - name: dataset_local_bike
+    schema: dataset_local_bike
     tables:
-      - name: feedback
-      - name: payment
-      - name: product
-      - name: order
-      - name: order_item
-      - name: seller
-      - name: user
+      - name: brands
+      - name: categories
+      - name: products
+      - name: orders
+      - name: order_items
+      - name: customers
+      - name: staffs
+      - name: stocks
+      - name: stores
+
