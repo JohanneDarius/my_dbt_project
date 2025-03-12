@@ -6,4 +6,4 @@ select
  cast(model_year as int) as model_year,
  cast(list_price as float) as list_price,
 
-from {{ source('local_bike_database', 'products') }}
+from {{ source('dataset_local_bike', 'products') }}

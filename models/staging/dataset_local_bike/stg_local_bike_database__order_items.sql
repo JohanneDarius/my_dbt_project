@@ -7,4 +7,4 @@ select CONCAT(order_id, '_', item_id) AS order_item_id,
  discount,
  quantity as item_quantity,
  (list_price * quantity) + discount as total_order_item_amount
-from {{ source('local_bike_database', 'order_items') }}
+from {{ source('dataset_local_bike', 'order_items') }}
